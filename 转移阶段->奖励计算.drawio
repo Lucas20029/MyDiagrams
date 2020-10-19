@@ -1,1 +1,144 @@
-<mxfile host="app.diagrams.net" modified="2020-10-19T07:36:22.778Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.113 Safari/537.36" version="13.8.0" etag="53c2MtZUujPrB35IN0IJ" type="github"><diagram id="znxqZrtz4kE08w6qVu8f">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-10-19T11:19:15.862Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.113 Safari/537.36" etag="0GOX-yWLpnWFqEUKOKw1" version="13.8.0" type="github">
+  <diagram id="znxqZrtz4kE08w6qVu8f" name="Page-1">
+    <mxGraphModel dx="1422" dy="839" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="GR9TSndTyU79bXKK3APz-1" value="下一阶段MRest接口&lt;br&gt;&lt;span style=&quot;font-family: &amp;#34;consolas&amp;#34; , &amp;#34;lucida console&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; text-align: left&quot;&gt;ApplicantProcess/ToNextStage&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="70" width="230" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="GR9TSndTyU79bXKK3APz-2" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="160" width="420" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="GR9TSndTyU79bXKK3APz-3" value="Beisen.Recruiting.Online.Dev.sln" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="420" y="160" width="180" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="GR9TSndTyU79bXKK3APz-4" value="ApplicantProcessController&lt;br&gt;_ToNextStage" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="190" width="210" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="GR9TSndTyU79bXKK3APz-5" value="ApplicantProcessController&lt;br&gt;TransferPhaseInternal" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="240" width="210" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="GR9TSndTyU79bXKK3APz-6" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="440" width="410" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="GR9TSndTyU79bXKK3APz-7" value="Beisen.Recruiting.Business.Release" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="430" y="440" width="200" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="GR9TSndTyU79bXKK3APz-8" value="ApplicantJobStoreDBProvider&lt;br&gt;TransferPhase（）&lt;br&gt;RealTransferPhase（）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="470" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="GR9TSndTyU79bXKK3APz-9" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="550" width="700" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="GR9TSndTyU79bXKK3APz-10" value="Beisen.Recruiting.Core.Dev" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="430" y="550" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="GR9TSndTyU79bXKK3APz-11" value="ProcessFactory&lt;br&gt;GetProcessInstance" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="580" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="GR9TSndTyU79bXKK3APz-12" value="RecruitApplyManagmentProcess&lt;br&gt;GetProcessInstance" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="640" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="GR9TSndTyU79bXKK3APz-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="GR9TSndTyU79bXKK3APz-13" target="GR9TSndTyU79bXKK3APz-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GR9TSndTyU79bXKK3APz-13" value="AbstractRecruitProcess&lt;br&gt;MoveTo&lt;br&gt;MoveToFirstPhase&lt;br&gt;MoveToNextPhase&lt;br&gt;RunProcessFilter" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="930" y="620" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="GR9TSndTyU79bXKK3APz-14" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="GR9TSndTyU79bXKK3APz-13" target="GR9TSndTyU79bXKK3APz-12">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="190" y="660" as="sourcePoint" />
+            <mxPoint x="350" y="660" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GR9TSndTyU79bXKK3APz-15" value="IProcessFilter" style="html=1;" vertex="1" parent="1">
+          <mxGeometry x="960" y="730" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GR9TSndTyU79bXKK3APz-17" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;span style=&quot;font-size: 12px ; color: rgb(0 , 0 , 0)&quot;&gt;RunProcessFilter里面有For，遍历执行所有已注册的ProcessFilters。&lt;/span&gt;&lt;/div&gt;&lt;font color=&quot;#000000&quot;&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span style=&quot;font-size: 12px&quot;&gt;关于ProcessFilter的具体实现，是放在Bussiness项目中的&lt;/span&gt;&lt;/div&gt;&lt;/font&gt;" style="shape=note;strokeWidth=2;fontSize=14;size=20;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;" vertex="1" parent="1">
+          <mxGeometry x="1150" y="660" width="240" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="GR9TSndTyU79bXKK3APz-18" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="810" width="700" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="GR9TSndTyU79bXKK3APz-19" value="Beisen.Recruiting.Business.Release" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="430" y="810" width="200" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="GR9TSndTyU79bXKK3APz-20" value="&lt;span&gt;RecruitApplyManagmentAsynFilter&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="760" y="895" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GR9TSndTyU79bXKK3APz-21" value="RecruitApplyCreateFilter" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="760" y="850" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GR9TSndTyU79bXKK3APz-22" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="940" width="280" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="GR9TSndTyU79bXKK3APz-23" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="GR9TSndTyU79bXKK3APz-21" target="GR9TSndTyU79bXKK3APz-15">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="970" y="860" as="sourcePoint" />
+            <mxPoint x="1130" y="860" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GR9TSndTyU79bXKK3APz-24" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="GR9TSndTyU79bXKK3APz-20" target="GR9TSndTyU79bXKK3APz-15">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="970" y="875" as="sourcePoint" />
+            <mxPoint x="1180" y="820" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GR9TSndTyU79bXKK3APz-25" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="GR9TSndTyU79bXKK3APz-22" target="GR9TSndTyU79bXKK3APz-15">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="980" y="885" as="sourcePoint" />
+            <mxPoint x="1035" y="780" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GR9TSndTyU79bXKK3APz-27" value="RecruitApplyManagmentFilter" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="740" y="940" width="160" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="GR9TSndTyU79bXKK3APz-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="GR9TSndTyU79bXKK3APz-28">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="805" y="1010" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GR9TSndTyU79bXKK3APz-28" value="AfterMoveTo（）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="740" y="970" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="GR9TSndTyU79bXKK3APz-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="GR9TSndTyU79bXKK3APz-30" target="GR9TSndTyU79bXKK3APz-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GR9TSndTyU79bXKK3APz-30" value="AutoTask()" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="740" y="1010" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="GR9TSndTyU79bXKK3APz-33" value="RabbitMQ&lt;br&gt;Exchange:recruit-app&lt;br&gt;RouteKey:microrecommend_reward" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.queue_generic;pointerEvents=1;" vertex="1" parent="1">
+          <mxGeometry x="780" y="1080" width="50" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="GR9TSndTyU79bXKK3APz-35" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="1190" width="700" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="GR9TSndTyU79bXKK3APz-36" value="Beisen.Recruiting.MailProcess.DEV" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="430" y="1190" width="200" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="GR9TSndTyU79bXKK3APz-43" value="InternalRewardMessageHandler&lt;br&gt;OnMessage" style="html=1;" vertex="1" parent="1">
+          <mxGeometry x="690" y="1320" width="230" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="GR9TSndTyU79bXKK3APz-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="GR9TSndTyU79bXKK3APz-33" target="GR9TSndTyU79bXKK3APz-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GR9TSndTyU79bXKK3APz-45" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GR9TSndTyU79bXKK3APz-39" target="GR9TSndTyU79bXKK3APz-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GR9TSndTyU79bXKK3APz-39" value="QueueServiceHandler" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="725" y="1200" width="160" height="86" as="geometry" />
+        </mxCell>
+        <mxCell id="GR9TSndTyU79bXKK3APz-40" value="InternalRewardConsume" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="GR9TSndTyU79bXKK3APz-39">
+          <mxGeometry y="26" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="GR9TSndTyU79bXKK3APz-41" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="GR9TSndTyU79bXKK3APz-39">
+          <mxGeometry y="52" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="GR9TSndTyU79bXKK3APz-42" value="+ QueueServiceHandler()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="GR9TSndTyU79bXKK3APz-39">
+          <mxGeometry y="60" width="160" height="26" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
