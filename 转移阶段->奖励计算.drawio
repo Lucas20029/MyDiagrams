@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-10-21T11:29:23.480Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.113 Safari/537.36" etag="6_t5fSlZd4l4RfpZq_uE" version="13.8.0" type="github">
+<mxfile host="app.diagrams.net" modified="2020-10-22T09:30:02.640Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.113 Safari/537.36" etag="FW6sqqYAmsKvDpoKJfMd" version="13.8.1" type="github">
   <diagram id="znxqZrtz4kE08w6qVu8f" name="Page-1">
     <mxGraphModel dx="1422" dy="839" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
       <root>
@@ -8,16 +8,16 @@
           <mxGeometry x="460" y="70" width="230" height="50" as="geometry" />
         </mxCell>
         <mxCell id="GR9TSndTyU79bXKK3APz-2" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="420" y="160" width="420" height="250" as="geometry" />
+          <mxGeometry x="430" y="160" width="410" height="250" as="geometry" />
         </mxCell>
-        <mxCell id="GR9TSndTyU79bXKK3APz-3" value="Beisen.Recruiting.Online.Dev.sln" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="420" y="160" width="180" height="20" as="geometry" />
+        <mxCell id="GR9TSndTyU79bXKK3APz-3" value="Recruitv5Web / Beisen.Recruiting.Online.Dev.sln" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="430" y="160" width="270" height="20" as="geometry" />
         </mxCell>
         <mxCell id="GR9TSndTyU79bXKK3APz-4" value="ApplicantProcessController&lt;br&gt;_ToNextStage" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="500" y="190" width="210" height="40" as="geometry" />
+          <mxGeometry x="510" y="190" width="210" height="40" as="geometry" />
         </mxCell>
         <mxCell id="GR9TSndTyU79bXKK3APz-5" value="ApplicantProcessController&lt;br&gt;TransferPhaseInternal" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="500" y="240" width="210" height="40" as="geometry" />
+          <mxGeometry x="510" y="240" width="210" height="40" as="geometry" />
         </mxCell>
         <mxCell id="GR9TSndTyU79bXKK3APz-6" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="430" y="440" width="410" height="90" as="geometry" />
@@ -141,9 +141,6 @@
         <mxCell id="GR9TSndTyU79bXKK3APz-42" value="+ QueueServiceHandler()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="GR9TSndTyU79bXKK3APz-39" vertex="1">
           <mxGeometry y="60" width="160" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="GR9TSndTyU79bXKK3APz-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="GR9TSndTyU79bXKK3APz-6" target="GR9TSndTyU79bXKK3APz-11" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="GR9TSndTyU79bXKK3APz-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="GR9TSndTyU79bXKK3APz-5" target="GR9TSndTyU79bXKK3APz-8" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -156,14 +153,17 @@
         <mxCell id="GR9TSndTyU79bXKK3APz-51" value="GrantBonusProvider&lt;br&gt;CreateGrantBonus" style="html=1;" parent="1" vertex="1">
           <mxGeometry x="722.5" y="1520" width="165" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="NxPdzSMRNZK8Bt3Fetg3-1" value="&lt;span&gt;MicroRecommendRewardMessageHandler&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="NxPdzSMRNZK8Bt3Fetg3-1" value="&lt;span&gt;MicroRecommendRewardMessageHandler&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="685" y="1320" width="240" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="NxPdzSMRNZK8Bt3Fetg3-2" value="OnMessage()" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="NxPdzSMRNZK8Bt3Fetg3-2" value="OnMessage()" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="740" y="1345" width="120" height="25" as="geometry" />
         </mxCell>
-        <mxCell id="NxPdzSMRNZK8Bt3Fetg3-3" value="CheckIsSkipProcess" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="NxPdzSMRNZK8Bt3Fetg3-3" value="CheckIsSkipProcess" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="725" y="1390" width="160" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="GR9TSndTyU79bXKK3APz-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="GR9TSndTyU79bXKK3APz-6" target="GR9TSndTyU79bXKK3APz-11" edge="1">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
