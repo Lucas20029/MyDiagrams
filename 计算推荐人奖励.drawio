@@ -1,1 +1,43 @@
-<mxfile host="app.diagrams.net" modified="2020-10-23T06:29:18.699Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" version="13.8.1" etag="XTIsnsJP3v9vWTj_XrbF" type="github"><diagram id="hxceB8bhMO8N4iSGg5qn">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-10-23T08:25:04.726Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" etag="2RiNF3M1X4QCFiIXFDLV" version="13.8.1" type="github">
+  <diagram id="hxceB8bhMO8N4iSGg5qn" name="Page-1">
+    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="eFzzsfOAj4i4j4rAg_sY-4" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="170" width="740" height="490" as="geometry" />
+        </mxCell>
+        <mxCell id="eFzzsfOAj4i4j4rAg_sY-12" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="230" width="420" height="340" as="geometry" />
+        </mxCell>
+        <mxCell id="eFzzsfOAj4i4j4rAg_sY-3" value="Beisen.Recruiting.MailProcess.Dev&lt;br&gt;InternalRewardMessageHandler.OnMessage" style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=top;align=left;spacingTop=-6;" vertex="1" parent="1">
+          <mxGeometry x="150" y="170" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="eFzzsfOAj4i4j4rAg_sY-5" value="GetApplyRelevanceData" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="80" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="eFzzsfOAj4i4j4rAg_sY-9" value="得到DigestID" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="eFzzsfOAj4i4j4rAg_sY-6" target="eFzzsfOAj4i4j4rAg_sY-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eFzzsfOAj4i4j4rAg_sY-6" value="ApplicantHistoryDigestProvider&lt;br&gt;ListHistoriesByPersonId&lt;br&gt;获取应聘者Digest信息&lt;br&gt;（查ApplicantHistoryDigest表 By PersonId、JobId，取正序第一条（最早一条））" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="347.5" y="270" width="365" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="eFzzsfOAj4i4j4rAg_sY-7" value="没明白 ApplicantHistoryDigest &lt;br&gt;表的 &lt;br&gt;MediumId =2097152 （还有其他枚举MediumName，比如 推荐到职位、内部推荐、移动端等）&lt;br&gt;ChannelId=16，是啥意思" style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=top;align=left;spacingTop=-6;" vertex="1" parent="1">
+          <mxGeometry x="920" y="220" width="190" height="87" as="geometry" />
+        </mxCell>
+        <mxCell id="eFzzsfOAj4i4j4rAg_sY-11" value="得到推荐信息" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="eFzzsfOAj4i4j4rAg_sY-8" target="eFzzsfOAj4i4j4rAg_sY-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eFzzsfOAj4i4j4rAg_sY-8" value="RecommendProvider&lt;br&gt;GetRecommenderInfoByDigestIds&lt;br&gt;根据DigestId 获取 推荐信息&lt;br&gt;（查 Rel_InternalRecommend 表，By DigestId）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="347.5" y="390" width="365" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="eFzzsfOAj4i4j4rAg_sY-10" value="调 BeisenUser接口，根据 RecommenderEmail 获取 userId" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="350" y="500" width="360" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="eFzzsfOAj4i4j4rAg_sY-13" value="GetApplyRelevanceData" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="510" y="233" width="40" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
