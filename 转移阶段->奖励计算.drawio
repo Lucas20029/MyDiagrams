@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-10-23T06:28:49.233Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" etag="LxGpdPM5ZUPqp1C-5MAQ" version="13.8.1" type="github">
+<mxfile host="app.diagrams.net" modified="2020-10-23T09:04:16.287Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" etag="SAt_Vm6GWYWNC4-Y01a1" version="13.8.1" type="github">
   <diagram id="znxqZrtz4kE08w6qVu8f" name="Page-1">
     <mxGraphModel dx="1411" dy="839" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
       <root>
@@ -153,13 +153,13 @@
         <mxCell id="NxPdzSMRNZK8Bt3Fetg3-1" value="InternalRewardMessageHandler" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="685" y="1320" width="240" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="NxPdzSMRNZK8Bt3Fetg3-2" value="OnMessage()" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="NxPdzSMRNZK8Bt3Fetg3-2" value="OnMessage()" style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="740" y="1345" width="120" height="25" as="geometry" />
         </mxCell>
         <mxCell id="3kUYyvX7TK8sNYkam1Sv-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="NxPdzSMRNZK8Bt3Fetg3-3" target="3kUYyvX7TK8sNYkam1Sv-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="NxPdzSMRNZK8Bt3Fetg3-3" value="RunRewardAction" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="NxPdzSMRNZK8Bt3Fetg3-3" value="RunRewardAction" style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="725" y="1390" width="160" height="25" as="geometry" />
         </mxCell>
         <mxCell id="GR9TSndTyU79bXKK3APz-46" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="GR9TSndTyU79bXKK3APz-6" target="GR9TSndTyU79bXKK3APz-11" edge="1">
@@ -211,6 +211,9 @@
         </mxCell>
         <mxCell id="3kUYyvX7TK8sNYkam1Sv-12" value="+Create" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="3kUYyvX7TK8sNYkam1Sv-10">
           <mxGeometry y="34" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="3kUYyvX7TK8sNYkam1Sv-20" value="决定奖励策略" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;size=36;position=0.25;position2=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="945" y="1275" width="110" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
