@@ -1,1 +1,235 @@
-<mxfile host="app.diagrams.net" modified="2020-11-13T07:45:03.154Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" version="13.9.6" etag="ufuEm79achu5Bpn3t7gA" type="github"><diagram id="ABBUsb9ANRoJ2-1cofEp">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-11-13T09:35:12.514Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="isqafOOzeqq7q54qAzxh" version="13.9.6" type="github">
+  <diagram id="ABBUsb9ANRoJ2-1cofEp" name="Page-1">
+    <mxGraphModel dx="1422" dy="839" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2uZgWtrD5iEIdf4oAZc1-3" value="&lt;b&gt;HunterApp&amp;nbsp; &lt;/b&gt;CandidateProvider" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="200" y="110" width="140" height="1150" as="geometry" />
+        </mxCell>
+        <mxCell id="2uZgWtrD5iEIdf4oAZc1-5" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="2uZgWtrD5iEIdf4oAZc1-3">
+          <mxGeometry x="65" y="50" width="10" height="1046" as="geometry" />
+        </mxCell>
+        <mxCell id="2uZgWtrD5iEIdf4oAZc1-17" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="2uZgWtrD5iEIdf4oAZc1-3">
+          <mxGeometry x="75" y="150" width="10" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="2uZgWtrD5iEIdf4oAZc1-18" value="检查手机号是否正确" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" target="2uZgWtrD5iEIdf4oAZc1-17" parent="2uZgWtrD5iEIdf4oAZc1-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="80" y="130" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="105" y="130" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2uZgWtrD5iEIdf4oAZc1-4" value="&lt;b&gt;Hunter ESB&lt;/b&gt;&amp;nbsp;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="550" y="110" width="140" height="1129" as="geometry" />
+        </mxCell>
+        <mxCell id="2uZgWtrD5iEIdf4oAZc1-8" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="2uZgWtrD5iEIdf4oAZc1-4">
+          <mxGeometry x="65" y="80" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="2uZgWtrD5iEIdf4oAZc1-12" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="2uZgWtrD5iEIdf4oAZc1-4">
+          <mxGeometry x="65" y="100" width="10" as="geometry" />
+        </mxCell>
+        <mxCell id="2uZgWtrD5iEIdf4oAZc1-13" value="根据 LoginUserId 查多租赁&lt;br&gt;HunterApp.HeadHunter" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" target="2uZgWtrD5iEIdf4oAZc1-12" parent="2uZgWtrD5iEIdf4oAZc1-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="70" y="80" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="95" y="80" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2uZgWtrD5iEIdf4oAZc1-23" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="2uZgWtrD5iEIdf4oAZc1-4">
+          <mxGeometry x="65" y="200" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="2uZgWtrD5iEIdf4oAZc1-26" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="2uZgWtrD5iEIdf4oAZc1-4">
+          <mxGeometry x="75" y="230" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="2uZgWtrD5iEIdf4oAZc1-27" value="读多租赁 &lt;br&gt;HunterApp.Setting" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" target="2uZgWtrD5iEIdf4oAZc1-26" parent="2uZgWtrD5iEIdf4oAZc1-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="70" y="210" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="95" y="210" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2uZgWtrD5iEIdf4oAZc1-33" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="2uZgWtrD5iEIdf4oAZc1-4">
+          <mxGeometry x="65" y="320" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="2uZgWtrD5iEIdf4oAZc1-36" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="2uZgWtrD5iEIdf4oAZc1-4">
+          <mxGeometry x="75" y="350" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="2uZgWtrD5iEIdf4oAZc1-37" value="读多租赁&lt;br&gt;HunterApp.Candidate" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" target="2uZgWtrD5iEIdf4oAZc1-36" parent="2uZgWtrD5iEIdf4oAZc1-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="80" y="330" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="105" y="330" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2uZgWtrD5iEIdf4oAZc1-75" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="2uZgWtrD5iEIdf4oAZc1-4">
+          <mxGeometry x="65" y="879" width="10" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2uZgWtrD5iEIdf4oAZc1-78" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="2uZgWtrD5iEIdf4oAZc1-4">
+          <mxGeometry x="75" y="909" width="10" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="2uZgWtrD5iEIdf4oAZc1-79" value="查多租赁&lt;br&gt;HunterApp.Candidate" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" target="2uZgWtrD5iEIdf4oAZc1-78" parent="2uZgWtrD5iEIdf4oAZc1-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="80" y="889" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="105" y="889" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2uZgWtrD5iEIdf4oAZc1-9" value="&lt;span style=&quot;font-size: 12px ; background-color: rgb(248 , 249 , 250)&quot;&gt;HunterAccountProvider.&lt;/span&gt;GetChannelId &lt;br&gt;获取当前登录人所在渠道ID" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;" edge="1" target="2uZgWtrD5iEIdf4oAZc1-8" parent="1" source="2uZgWtrD5iEIdf4oAZc1-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="415" y="180" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2uZgWtrD5iEIdf4oAZc1-10" value="channelID" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;" edge="1" source="2uZgWtrD5iEIdf4oAZc1-8" parent="1" target="2uZgWtrD5iEIdf4oAZc1-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="415" y="256" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2uZgWtrD5iEIdf4oAZc1-24" value="&lt;span style=&quot;font-size: 12px ; background-color: rgb(248 , 249 , 250)&quot;&gt;SettingProvider.&lt;/span&gt;GetHunterSetting&amp;nbsp; 获取设置" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;" edge="1" target="2uZgWtrD5iEIdf4oAZc1-23" parent="1" source="2uZgWtrD5iEIdf4oAZc1-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="665" y="317" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2uZgWtrD5iEIdf4oAZc1-25" value="返回Setting：" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;" edge="1" source="2uZgWtrD5iEIdf4oAZc1-23" parent="1" target="2uZgWtrD5iEIdf4oAZc1-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="665" y="393" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2uZgWtrD5iEIdf4oAZc1-34" value="GetCandidateById(chanelId, PObjectDataID)&lt;br&gt;获取 当前渠道下、此人的投递（查重时会排除掉）" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;" edge="1" target="2uZgWtrD5iEIdf4oAZc1-33" parent="1" source="2uZgWtrD5iEIdf4oAZc1-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="545" y="430" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2uZgWtrD5iEIdf4oAZc1-35" value="Candidate.SubmissionId&lt;br&gt;（ExcludeSubmissionID）" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;" edge="1" source="2uZgWtrD5iEIdf4oAZc1-33" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="270" y="506" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2uZgWtrD5iEIdf4oAZc1-38" value="&lt;b&gt;RecruitApi&lt;/b&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="810" y="110" width="140" height="1128" as="geometry" />
+        </mxCell>
+        <mxCell id="2uZgWtrD5iEIdf4oAZc1-48" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="2uZgWtrD5iEIdf4oAZc1-38">
+          <mxGeometry x="65" y="450" width="10" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="2uZgWtrD5iEIdf4oAZc1-51" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="2uZgWtrD5iEIdf4oAZc1-38">
+          <mxGeometry x="75" y="470" width="10" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="2uZgWtrD5iEIdf4oAZc1-52" value="dbo.SearchCV_IsExist_V1&lt;br&gt;查 dbo.SearchCV" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" target="2uZgWtrD5iEIdf4oAZc1-51" parent="2uZgWtrD5iEIdf4oAZc1-38">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="80" y="460" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="105" y="460" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2uZgWtrD5iEIdf4oAZc1-55" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="2uZgWtrD5iEIdf4oAZc1-38">
+          <mxGeometry x="75" y="540" width="10" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="2uZgWtrD5iEIdf4oAZc1-56" value="查ApplicantProfile、Submission&lt;br&gt;根据SubmissionId 做 排除" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" target="2uZgWtrD5iEIdf4oAZc1-55" parent="2uZgWtrD5iEIdf4oAZc1-38" source="2uZgWtrD5iEIdf4oAZc1-48">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="80" y="520" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="105" y="520" />
+              <mxPoint x="105" y="540" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2uZgWtrD5iEIdf4oAZc1-67" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="2uZgWtrD5iEIdf4oAZc1-38">
+          <mxGeometry x="75" y="620" width="10" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="2uZgWtrD5iEIdf4oAZc1-68" value="查 Submission、Channels、GetHunterProtectDay&lt;br&gt;判断是否在 猎头保护期 内" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" target="2uZgWtrD5iEIdf4oAZc1-67" parent="2uZgWtrD5iEIdf4oAZc1-38">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="80" y="610" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="105" y="610" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2uZgWtrD5iEIdf4oAZc1-69" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="2uZgWtrD5iEIdf4oAZc1-38">
+          <mxGeometry x="75" y="690" width="10" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="2uZgWtrD5iEIdf4oAZc1-70" value="查 TalentValidPeriod、Submissions&lt;br&gt;判断 是否在 人才有效期 内" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" target="2uZgWtrD5iEIdf4oAZc1-69" parent="2uZgWtrD5iEIdf4oAZc1-38">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="80" y="670" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="105" y="670" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2uZgWtrD5iEIdf4oAZc1-72" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="2uZgWtrD5iEIdf4oAZc1-38">
+          <mxGeometry x="65" y="800" width="10" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2uZgWtrD5iEIdf4oAZc1-80" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="2uZgWtrD5iEIdf4oAZc1-38">
+          <mxGeometry x="65" y="979" width="10" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="2uZgWtrD5iEIdf4oAZc1-83" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="2uZgWtrD5iEIdf4oAZc1-38">
+          <mxGeometry x="75" y="1015" width="10" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="2uZgWtrD5iEIdf4oAZc1-84" value="查多租赁Submission&lt;br&gt;dbo.SearchCV" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" target="2uZgWtrD5iEIdf4oAZc1-83" parent="2uZgWtrD5iEIdf4oAZc1-38">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="80" y="995" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="105" y="995" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2uZgWtrD5iEIdf4oAZc1-49" value="HTTP：applicant / existmoreinfo&lt;br&gt;ExcludeSubmissionId、Email、Mobile" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;" edge="1" target="2uZgWtrD5iEIdf4oAZc1-48" parent="1" source="2uZgWtrD5iEIdf4oAZc1-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="865" y="540" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2uZgWtrD5iEIdf4oAZc1-50" value="&lt;b&gt;查重结果：&lt;/b&gt;是否存在、是否拉黑、&lt;br&gt;&lt;b&gt;猎头保护期设置：&lt;/b&gt;是否受保护、是否全部猎头投递、所在保护期的投递&lt;br&gt;&lt;b&gt;人才有效期设置：&lt;/b&gt;是否在有效期内、是否允许重复、是否开启有效期、有效期时长" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0.1;exitY=0.971;exitDx=0;exitDy=0;exitPerimeter=0;align=left;" edge="1" source="2uZgWtrD5iEIdf4oAZc1-48" parent="1" target="2uZgWtrD5iEIdf4oAZc1-5">
+          <mxGeometry x="0.686" relative="1" as="geometry">
+            <mxPoint x="865" y="616" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2uZgWtrD5iEIdf4oAZc1-53" value="如果存在" style="shape=umlFrame;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="800" y="610" width="410" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="2uZgWtrD5iEIdf4oAZc1-73" value="HTTP：&amp;nbsp;store/list、job/{id}" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;" edge="1" target="2uZgWtrD5iEIdf4oAZc1-72" parent="1" source="2uZgWtrD5iEIdf4oAZc1-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="805" y="910" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2uZgWtrD5iEIdf4oAZc1-74" value="全部/最近/最初 投递信息" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;" edge="1" source="2uZgWtrD5iEIdf4oAZc1-72" parent="1" target="2uZgWtrD5iEIdf4oAZc1-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="805" y="986" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2uZgWtrD5iEIdf4oAZc1-76" value="CandidateProvider.RepeatCandidate" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;" edge="1" target="2uZgWtrD5iEIdf4oAZc1-75" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="269.5" y="989" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2uZgWtrD5iEIdf4oAZc1-77" value="IsRepeat" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.943;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" source="2uZgWtrD5iEIdf4oAZc1-75" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="269.5" y="1045.58" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2uZgWtrD5iEIdf4oAZc1-81" value="HTTP：applicant/isdeleted/{submissionId}" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="269.5" y="1099" as="sourcePoint" />
+            <mxPoint x="874" y="1099" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2uZgWtrD5iEIdf4oAZc1-82" value="是否被删（SearchCV.IsDeleted）" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;" edge="1" source="2uZgWtrD5iEIdf4oAZc1-80" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="269.5" y="1155.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2uZgWtrD5iEIdf4oAZc1-88" value="&lt;b&gt;&amp;nbsp;查重结果：&lt;br&gt;&lt;/b&gt;&amp;nbsp;不存在" style="shape=umlFrame;whiteSpace=wrap;html=1;width=70;height=31;align=left;" vertex="1" parent="1">
+          <mxGeometry x="190" y="959" width="850" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="2uZgWtrD5iEIdf4oAZc1-90" value="&lt;span style=&quot;color: rgb(0 , 0 , 0) ; font-size: 12px&quot;&gt;&amp;nbsp; HunterApp / Candidate / Repeat&lt;/span&gt;&lt;br&gt;&amp;nbsp; 查重逻辑：租户使用TMS（未开通V6）" style="shape=note;strokeWidth=2;fontSize=14;size=20;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;align=left;" vertex="1" parent="1">
+          <mxGeometry x="180" y="31" width="266" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
