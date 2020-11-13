@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-11-13T10:59:55.883Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="MBHxnQmMuhs3e2L72dBx" version="13.9.6" type="github">
+<mxfile host="app.diagrams.net" modified="2020-11-13T11:04:11.402Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="LdkmrD1fUBNRKABD1Fkx" version="13.9.6" type="github">
   <diagram id="ABBUsb9ANRoJ2-1cofEp" name="Page-1">
     <mxGraphModel dx="1422" dy="839" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
       <root>
@@ -239,6 +239,9 @@
         </mxCell>
         <mxCell id="2uZgWtrD5iEIdf4oAZc1-90" value="&amp;nbsp; HunterApp / Candidate / Repeat&lt;br&gt;&amp;nbsp; 查重逻辑：租户使用TMS（未开通V6）" style="shape=note;strokeWidth=2;fontSize=14;size=20;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;align=left;" vertex="1" parent="1">
           <mxGeometry x="180" y="31" width="266" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="2uZgWtrD5iEIdf4oAZc1-93" value="&lt;div&gt;1. 为啥要存一份Redis数据？&lt;/div&gt;&lt;div&gt;2. 为啥会有 PObjectId ，去做排除，有啥场景？&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="shape=note;strokeWidth=2;fontSize=14;size=20;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;" vertex="1" parent="1">
+          <mxGeometry x="1146" y="217" width="232" height="97" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
