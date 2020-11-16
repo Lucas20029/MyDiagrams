@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-11-16T10:00:23.537Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="HMadynJkb1ge50JBw4gp" version="13.9.7" type="github">
+<mxfile host="app.diagrams.net" modified="2020-11-16T11:02:13.080Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="OqG6D718se7r56aQp_Hl" version="13.9.7" type="github">
   <diagram id="tZS09PzCN494BnaMnOVT" name="Page-1">
     <mxGraphModel dx="3076" dy="839" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
       <root>
@@ -189,32 +189,34 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="f8CwQ1N9MNgYKKSePt2F-31" value="查多租赁 HunterApp.Candidate&lt;br&gt;先查Email，后查Mobile" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="735.3700000000001" y="812.5" width="190" height="55" as="geometry" />
+          <mxGeometry x="744.0000000000001" y="812.5" width="190" height="55" as="geometry" />
         </mxCell>
-        <mxCell id="f8CwQ1N9MNgYKKSePt2F-41" value="存在" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="f8CwQ1N9MNgYKKSePt2F-36" target="f8CwQ1N9MNgYKKSePt2F-38">
+        <mxCell id="f8CwQ1N9MNgYKKSePt2F-41" value="存在" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="f8CwQ1N9MNgYKKSePt2F-36" target="f8CwQ1N9MNgYKKSePt2F-38">
           <mxGeometry x="-0.15" relative="1" as="geometry">
+            <mxPoint x="728" y="906" as="sourcePoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="f8CwQ1N9MNgYKKSePt2F-42" value="不存在" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="f8CwQ1N9MNgYKKSePt2F-36" target="f8CwQ1N9MNgYKKSePt2F-39">
+        <mxCell id="f8CwQ1N9MNgYKKSePt2F-42" value="不存在" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="f8CwQ1N9MNgYKKSePt2F-36" target="f8CwQ1N9MNgYKKSePt2F-39">
           <mxGeometry x="-0.15" relative="1" as="geometry">
+            <mxPoint x="879" y="915" as="sourcePoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="f8CwQ1N9MNgYKKSePt2F-36" value="存在" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="782.8700000000001" y="890" width="95" height="50" as="geometry" />
+          <mxGeometry x="791.5000000000001" y="890" width="95" height="50" as="geometry" />
         </mxCell>
         <mxCell id="f8CwQ1N9MNgYKKSePt2F-145" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="f8CwQ1N9MNgYKKSePt2F-38" target="f8CwQ1N9MNgYKKSePt2F-109">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="f8CwQ1N9MNgYKKSePt2F-38" value="&lt;span style=&quot;color: rgb(102 , 102 , 0)&quot;&gt;IsExist=True&lt;br&gt;IsRepeatInTMS=False&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="840.37" y="966.5" width="180" height="47.5" as="geometry" />
+          <mxGeometry x="655" y="964" width="180" height="47.5" as="geometry" />
         </mxCell>
         <mxCell id="f8CwQ1N9MNgYKKSePt2F-149" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="f8CwQ1N9MNgYKKSePt2F-39" target="f8CwQ1N9MNgYKKSePt2F-109">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="f8CwQ1N9MNgYKKSePt2F-39" value="&lt;span style=&quot;color: rgb(102 , 102 , 0)&quot;&gt;IsExist=False&lt;br&gt;IsRepeatInTMS=False&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="639" y="966.5" width="180" height="47.5" as="geometry" />
+          <mxGeometry x="864" y="964" width="180" height="47.5" as="geometry" />
         </mxCell>
         <mxCell id="f8CwQ1N9MNgYKKSePt2F-148" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="f8CwQ1N9MNgYKKSePt2F-43" target="f8CwQ1N9MNgYKKSePt2F-109">
           <mxGeometry relative="1" as="geometry" />
@@ -271,7 +273,7 @@
           <mxGeometry x="30" width="150" height="30" as="geometry" />
         </mxCell>
         <mxCell id="f8CwQ1N9MNgYKKSePt2F-87" value="Recruitment.TenantConfig" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" vertex="1" parent="1">
-          <mxGeometry x="114.74" y="60" width="180" height="100" as="geometry" />
+          <mxGeometry x="117" y="27" width="180" height="131.75" as="geometry" />
         </mxCell>
         <mxCell id="f8CwQ1N9MNgYKKSePt2F-94" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="f8CwQ1N9MNgYKKSePt2F-87">
           <mxGeometry y="30" width="180" height="30" as="geometry" />
@@ -283,16 +285,25 @@
           <mxGeometry x="30" width="150" height="30" as="geometry" />
         </mxCell>
         <mxCell id="f8CwQ1N9MNgYKKSePt2F-97" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="f8CwQ1N9MNgYKKSePt2F-87">
-          <mxGeometry y="60" width="180" height="30" as="geometry" />
+          <mxGeometry y="60" width="180" height="31" as="geometry" />
         </mxCell>
         <mxCell id="f8CwQ1N9MNgYKKSePt2F-98" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;" vertex="1" parent="f8CwQ1N9MNgYKKSePt2F-97">
-          <mxGeometry width="30" height="30" as="geometry" />
+          <mxGeometry width="30" height="31" as="geometry" />
         </mxCell>
         <mxCell id="f8CwQ1N9MNgYKKSePt2F-99" value="Value" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" vertex="1" parent="f8CwQ1N9MNgYKKSePt2F-97">
-          <mxGeometry x="30" width="150" height="30" as="geometry" />
+          <mxGeometry x="30" width="150" height="31" as="geometry" />
         </mxCell>
-        <mxCell id="f8CwQ1N9MNgYKKSePt2F-100" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;Code:TalentValidConfig&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;Value:{&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span&gt;TalentValidPeriodDay&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&amp;nbsp; IsOpenTalentValidPeriod&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&amp;nbsp; IsAllowRecommandRepeatResume&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;}&lt;/span&gt;&lt;/div&gt;" style="shape=note;strokeWidth=2;fontSize=14;size=20;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;" vertex="1" parent="1">
-          <mxGeometry x="340" y="20" width="253" height="110" as="geometry" />
+        <mxCell id="f8CwQ1N9MNgYKKSePt2F-218" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="f8CwQ1N9MNgYKKSePt2F-87">
+          <mxGeometry y="91" width="180" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="f8CwQ1N9MNgYKKSePt2F-219" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;" vertex="1" parent="f8CwQ1N9MNgYKKSePt2F-218">
+          <mxGeometry width="30" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="f8CwQ1N9MNgYKKSePt2F-220" value="StdIsDeleted" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" vertex="1" parent="f8CwQ1N9MNgYKKSePt2F-218">
+          <mxGeometry x="30" width="150" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="f8CwQ1N9MNgYKKSePt2F-100" value="&lt;div style=&quot;font-size: 12px&quot;&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;&amp;nbsp; Code:TalentValidConfig&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 12px&quot;&gt;&lt;span&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;&amp;nbsp; Value:{&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 12px&quot;&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span&gt;TalentValidPeriodDay&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 12px&quot;&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;&amp;nbsp; &amp;nbsp; IsOpenTalentValidPeriod&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 12px&quot;&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;&amp;nbsp; &amp;nbsp; IsAllowRecommandRepeatResume&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 12px&quot;&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;&amp;nbsp; }&lt;/font&gt;&lt;/div&gt;" style="shape=note;strokeWidth=1;fontSize=14;size=20;whiteSpace=wrap;html=1;strokeColor=#d6b656;fontColor=#666600;align=left;fillColor=#FFFCEB;" vertex="1" parent="1">
+          <mxGeometry x="340" y="20" width="239" height="100" as="geometry" />
         </mxCell>
         <mxCell id="f8CwQ1N9MNgYKKSePt2F-101" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;" edge="1" parent="1" source="f8CwQ1N9MNgYKKSePt2F-87" target="f8CwQ1N9MNgYKKSePt2F-100">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -373,7 +384,7 @@
         <mxCell id="f8CwQ1N9MNgYKKSePt2F-158" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="f8CwQ1N9MNgYKKSePt2F-155" target="f8CwQ1N9MNgYKKSePt2F-157">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="f8CwQ1N9MNgYKKSePt2F-155" value="执行存储过程 SearchCV_IsExist_V1&lt;br&gt;查SearchCV库" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="f8CwQ1N9MNgYKKSePt2F-155" value="查SearchCV库&lt;br&gt;Email=@Email || Mobile=@Mobile &lt;br&gt;Top1&amp;nbsp;没有排序" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1227.69" y="181" width="224.63" height="55" as="geometry" />
         </mxCell>
         <mxCell id="f8CwQ1N9MNgYKKSePt2F-179" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="f8CwQ1N9MNgYKKSePt2F-157" target="f8CwQ1N9MNgYKKSePt2F-166">
@@ -381,11 +392,11 @@
         </mxCell>
         <mxCell id="f8CwQ1N9MNgYKKSePt2F-180" value="不存在" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="f8CwQ1N9MNgYKKSePt2F-179">
           <mxGeometry x="-0.6277" y="-2" relative="1" as="geometry">
-            <mxPoint x="93.67999999999999" y="23" as="offset" />
+            <mxPoint x="91.38999999999999" y="15" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="f8CwQ1N9MNgYKKSePt2F-183" value="是&lt;br&gt;得到SearchCV.PersonID" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="f8CwQ1N9MNgYKKSePt2F-157" target="f8CwQ1N9MNgYKKSePt2F-159">
-          <mxGeometry x="0.5294" relative="1" as="geometry">
+          <mxGeometry x="0.6271" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
@@ -395,8 +406,8 @@
         <mxCell id="f8CwQ1N9MNgYKKSePt2F-162" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="f8CwQ1N9MNgYKKSePt2F-159" target="f8CwQ1N9MNgYKKSePt2F-161">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="f8CwQ1N9MNgYKKSePt2F-159" value="查ProfileLite、Submission" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1095.5000000000002" y="341.5" width="167" height="44" as="geometry" />
+        <mxCell id="f8CwQ1N9MNgYKKSePt2F-159" value="&lt;b&gt;获取申请详情、投递信息&lt;/b&gt;&lt;br&gt;查[ApplicantProfileLite]表&lt;br&gt;查多租赁V3 Recruitment.ApplicantProfile&lt;br&gt;Recruitment.Submission" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1065.26" y="324" width="227.5" height="65" as="geometry" />
         </mxCell>
         <mxCell id="f8CwQ1N9MNgYKKSePt2F-167" value="是，Exclude（编辑模式）" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="f8CwQ1N9MNgYKKSePt2F-161" target="f8CwQ1N9MNgYKKSePt2F-166">
           <mxGeometry relative="1" as="geometry">
@@ -498,6 +509,9 @@
         </mxCell>
         <mxCell id="f8CwQ1N9MNgYKKSePt2F-213" value="猎头内部检查逻辑" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fad7ac;strokeColor=#b46504;" vertex="1" parent="1">
           <mxGeometry x="95.00000000000013" y="1224" width="160.38" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="f8CwQ1N9MNgYKKSePt2F-217" value="&lt;b&gt;Beisen.HunterApp.dev&lt;br&gt;&lt;/b&gt;CandidateProvider.Repeat" style="shape=note2;boundedLbl=1;whiteSpace=wrap;html=1;size=13;verticalAlign=top;align=center;fillColor=#FFFCE8;" vertex="1" parent="1">
+          <mxGeometry x="12" y="425" width="160" height="65" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
