@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-11-18T02:12:01.027Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="OTf19n5z5hXXQvoL9Dj2" version="13.9.9" type="github">
+<mxfile host="app.diagrams.net" modified="2020-11-18T02:13:08.753Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="EN-EK3MxKh1jnSCQKji2" version="13.9.9" type="github">
   <diagram id="lCH3l3sZAvIwr4fx6T6T" name="Page-1">
     <mxGraphModel dx="1422" dy="839" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
       <root>
@@ -102,7 +102,7 @@
         <mxCell id="pgZDr6GOO8oYsuXbYnGg-79" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="pgZDr6GOO8oYsuXbYnGg-75" target="pgZDr6GOO8oYsuXbYnGg-78">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="pgZDr6GOO8oYsuXbYnGg-75" value="写Redis" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="pgZDr6GOO8oYsuXbYnGg-75" value="写Redis" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="480" y="597.5" width="90" height="42.5" as="geometry" />
         </mxCell>
         <mxCell id="pgZDr6GOO8oYsuXbYnGg-82" value="是" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="pgZDr6GOO8oYsuXbYnGg-78" target="pgZDr6GOO8oYsuXbYnGg-81">
@@ -111,7 +111,7 @@
         <mxCell id="pgZDr6GOO8oYsuXbYnGg-103" value="不存在 或者 为空" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="pgZDr6GOO8oYsuXbYnGg-78" target="pgZDr6GOO8oYsuXbYnGg-102">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="pgZDr6GOO8oYsuXbYnGg-78" value="存在&lt;br&gt;不为空" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="pgZDr6GOO8oYsuXbYnGg-78" value="存在 且&lt;br&gt;不为空" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="610" y="592.5" width="70" height="52.5" as="geometry" />
         </mxCell>
         <mxCell id="pgZDr6GOO8oYsuXbYnGg-85" value="V2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="pgZDr6GOO8oYsuXbYnGg-81" target="pgZDr6GOO8oYsuXbYnGg-83">
@@ -120,13 +120,13 @@
         <mxCell id="pgZDr6GOO8oYsuXbYnGg-96" value="V1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="pgZDr6GOO8oYsuXbYnGg-81" target="pgZDr6GOO8oYsuXbYnGg-95">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="pgZDr6GOO8oYsuXbYnGg-81" value="判断版本" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="pgZDr6GOO8oYsuXbYnGg-81" value="判断版本" style="rhombus;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="720" y="592.5" width="70" height="52.5" as="geometry" />
         </mxCell>
         <mxCell id="pgZDr6GOO8oYsuXbYnGg-86" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="pgZDr6GOO8oYsuXbYnGg-83" target="pgZDr6GOO8oYsuXbYnGg-84">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="pgZDr6GOO8oYsuXbYnGg-83" value="V2 反序列化" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="pgZDr6GOO8oYsuXbYnGg-83" value="V2 反序列化" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="870" y="597.51" width="90" height="42.5" as="geometry" />
         </mxCell>
         <mxCell id="pgZDr6GOO8oYsuXbYnGg-88" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="pgZDr6GOO8oYsuXbYnGg-84" target="pgZDr6GOO8oYsuXbYnGg-87">
@@ -156,13 +156,13 @@
         <mxCell id="pgZDr6GOO8oYsuXbYnGg-98" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="pgZDr6GOO8oYsuXbYnGg-95" target="pgZDr6GOO8oYsuXbYnGg-97">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="pgZDr6GOO8oYsuXbYnGg-95" value="V1 反序列化" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="pgZDr6GOO8oYsuXbYnGg-95" value="V1 反序列化" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="827" y="670" width="90" height="42.5" as="geometry" />
         </mxCell>
         <mxCell id="pgZDr6GOO8oYsuXbYnGg-99" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="pgZDr6GOO8oYsuXbYnGg-97" target="pgZDr6GOO8oYsuXbYnGg-84">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="pgZDr6GOO8oYsuXbYnGg-97" value="V1 转 V2" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="pgZDr6GOO8oYsuXbYnGg-97" value="V1 转 V2" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="970" y="670" width="90" height="42.5" as="geometry" />
         </mxCell>
         <mxCell id="pgZDr6GOO8oYsuXbYnGg-104" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="pgZDr6GOO8oYsuXbYnGg-102" target="pgZDr6GOO8oYsuXbYnGg-87">
