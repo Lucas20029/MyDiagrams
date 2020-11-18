@@ -1,9 +1,12 @@
-<mxfile host="app.diagrams.net" modified="2020-10-28T03:08:13.228Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36" etag="Abu7sM4RKDldABTSMp4m" version="13.8.5" type="github">
+<mxfile host="app.diagrams.net" modified="2020-11-18T10:23:11.129Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="3qJzxDk_4wfB2neQLaj5" version="13.9.9" type="github">
   <diagram id="znxqZrtz4kE08w6qVu8f" name="Page-1">
-    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
+    <mxGraphModel dx="1409" dy="839" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="SDlLuCLr8LUadrgbDDv_-16" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1182" y="1800" width="350" height="130" as="geometry" />
+        </mxCell>
         <mxCell id="GR9TSndTyU79bXKK3APz-1" value="下一阶段MRest接口&lt;br&gt;&lt;span style=&quot;font-family: &amp;#34;consolas&amp;#34; , &amp;#34;lucida console&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; text-align: left&quot;&gt;ApplicantProcess/ToNextStage&lt;/span&gt;" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="545" y="90" width="230" height="50" as="geometry" />
         </mxCell>
@@ -215,8 +218,67 @@
         <mxCell id="3kUYyvX7TK8sNYkam1Sv-20" value="决定奖励策略" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;size=36;position=0.25;position2=0;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="945" y="1125" width="110" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="W0XvF5Tk98zsSoRB1tWw-2" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.queue_generic;pointerEvents=1;" vertex="1" parent="1">
+        <mxCell id="W0XvF5Tk98zsSoRB1tWw-2" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.queue_generic;pointerEvents=1;" parent="1" vertex="1">
           <mxGeometry x="780" y="960" width="50" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="SDlLuCLr8LUadrgbDDv_-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontColor=#000000;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="SDlLuCLr8LUadrgbDDv_-2" target="SDlLuCLr8LUadrgbDDv_-16">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1357" y="1798" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SDlLuCLr8LUadrgbDDv_-2" value="转移阶段接口" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1182" y="1717" width="350" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="SDlLuCLr8LUadrgbDDv_-5" value="recruitv5.tms.beisen.com" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="1182" y="1800" width="140" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="SDlLuCLr8LUadrgbDDv_-6" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1217" y="1840" width="280" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="SDlLuCLr8LUadrgbDDv_-7" value="RecruitApplyCreateFilter" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1217" y="1840" width="140" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="SDlLuCLr8LUadrgbDDv_-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;fontColor=#000000;" edge="1" parent="1" source="SDlLuCLr8LUadrgbDDv_-11" target="SDlLuCLr8LUadrgbDDv_-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SDlLuCLr8LUadrgbDDv_-11" value="AutoTask()" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1292" y="1870" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="SDlLuCLr8LUadrgbDDv_-12" value="RabbitMQ&lt;br&gt;Exchange:recruit-app&lt;br&gt;RouteKey:microrecommend_reward" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;shape=mxgraph.azure.queue_generic;pointerEvents=1;" vertex="1" parent="1">
+          <mxGeometry x="1327.5" y="1955" width="50" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="SDlLuCLr8LUadrgbDDv_-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.875;entryY=0.05;entryDx=0;entryDy=0;entryPerimeter=0;fontColor=#000000;" edge="1" parent="1" source="SDlLuCLr8LUadrgbDDv_-13" target="SDlLuCLr8LUadrgbDDv_-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SDlLuCLr8LUadrgbDDv_-13" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.queue_generic;pointerEvents=1;" vertex="1" parent="1">
+          <mxGeometry x="1332" y="1955" width="50" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="SDlLuCLr8LUadrgbDDv_-19" value="" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="1182" y="2030" width="350" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="SDlLuCLr8LUadrgbDDv_-20" value="Beisen.Recruiting.MailProcess.DEV" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1182" y="2030" width="200" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="SDlLuCLr8LUadrgbDDv_-21" value="&lt;br&gt;" style="html=1;" vertex="1" parent="1">
+          <mxGeometry x="1217" y="2070" width="280" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="SDlLuCLr8LUadrgbDDv_-23" value="InternalRewardMessageHandler" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1217" y="2070" width="181.5" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="SDlLuCLr8LUadrgbDDv_-24" value="OnMessage()" style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="1297" y="2100" width="120" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="SDlLuCLr8LUadrgbDDv_-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="1" source="SDlLuCLr8LUadrgbDDv_-25" target="SDlLuCLr8LUadrgbDDv_-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SDlLuCLr8LUadrgbDDv_-25" value="RunRewardAction" style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="1277" y="2140" width="160" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="SDlLuCLr8LUadrgbDDv_-26" value="决定奖励策略" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;size=36;position=0.25;position2=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="1430" y="2064" width="111" height="76" as="geometry" />
+        </mxCell>
+        <mxCell id="SDlLuCLr8LUadrgbDDv_-36" value="dbo.WeChatOfficer_RedEnvelopes_Create" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="1182" y="2238" width="350" height="42.5" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
