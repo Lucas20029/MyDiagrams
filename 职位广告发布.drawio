@@ -1,1 +1,28 @@
-<mxfile host="app.diagrams.net" modified="2021-01-27T03:56:17.710Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" version="14.2.7" etag="6twPFKHOQKZR7NGUYDb7" type="github"><diagram id="dJ71zBX1iKau7Kkw3Q4T">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-01-27T07:58:44.068Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="8OKXIvzHidTb68KNiLNB" version="14.2.7" type="github">
+  <diagram id="dJ71zBX1iKau7Kkw3Q4T" name="Page-1">
+    <mxGraphModel dx="1422" dy="839" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="HcCG96OIo7KXhbLCu2V7-1" value="BeforeTrigger" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="200" y="70" width="100" height="670" as="geometry" />
+        </mxCell>
+        <mxCell id="HcCG96OIo7KXhbLCu2V7-2" value="多租赁" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="340" y="70" width="100" height="670" as="geometry" />
+        </mxCell>
+        <mxCell id="HcCG96OIo7KXhbLCu2V7-3" value="AfterTrigger" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="480" y="70" width="100" height="670" as="geometry" />
+        </mxCell>
+        <mxCell id="HcCG96OIo7KXhbLCu2V7-4" value="JobAd ESB" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="620" y="70" width="100" height="670" as="geometry" />
+        </mxCell>
+        <mxCell id="HcCG96OIo7KXhbLCu2V7-5" value="Adapter ESB" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="760" y="70" width="100" height="670" as="geometry" />
+        </mxCell>
+        <mxCell id="HcCG96OIo7KXhbLCu2V7-6" value="User&lt;br&gt;s" style="shape=umlLifeline;participant=umlActor;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="100" y="70" width="20" height="701" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
