@@ -1,1 +1,58 @@
-<mxfile host="app.diagrams.net" modified="2021-01-28T11:06:41.358Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="uaxzlcxYJmR5HHO6cRIU" version="14.2.7" type="github"><diagram id="f4uBQvl_7b_BEWJ_rEFn" name="Page-1">7Vjfb5swEP5reFyEcaDlsUm6Vlq7Vs20ZY8OXMArYGRMEvrXz4D5VUKbtVHSTZPy4Dufj/N9d59P0fA03F5xEvu3zIVAM3R3q+GZZhhobBha/tPdrNScY7tUeJy6yqhRzOkTKKWutCl1IekYCsYCQeOu0mFRBI7o6AjnbNM1W7Gg+9WYeNBTzB0S9LU/qCt8pbXMcbNxDdTz1acNjK1yJySVtbpK4hOXbVoqfKnhKWdMlKtwO4Ugz16VmPLc54HdOjIOkdjngOVf+w4ZLx6IfXfF6dfHu6X/6UzFJrLqxuDKBCiRceEzj0UkuGy0E87SyIXcqy6lxuaGsVgqkVT+AiEyhSZJBZMqX4SB2oUtFYvW+mfuamQqabZVngshU0IZZx7c4PWVKmEpd+CFO1d1RLgH4gU7XIMkyxtYCIJn8hyHgAi67sZBVJ15tV2DhFwoMP4AmPPS75oEqfrSPF2GVHxjD+DwlIrv1k7obshStmAn3SSgXiTXjswUcKlYAxdU1viF2gip65bIQkKfyLLwlyc9ZjQSxc3MiWbOahhyB7DVdjSgOtxUfRug4QrsZ1l510fofKxuunfilbf7PPrGFbK6J9hqlUj8nwNVx/B27Cry+vhdJaHh2aIttE7lYnOskE7YjfY7u7E4esE5yVoGqsAHawabCkr1fCH7Gce+Yo+7nCwXZQSHLTf0Glfcy3IigRRYGELkTuUz/a/QB9J310XNH7jmD4VJVXFvpZMj8EcPzwnQBKLR9HY+uqFLTvLArEDmZbLkcuXlqwdI0hDuOVvLkYmPyhK4iOMg6yHd5ZqNTwXMY1K06UbOcV38BzHrdfsgCgg9ayNLyZtmpjJ0pfNb41Rld/DndXf1/2fowTloD4Y2Tzkv4V7PfCGrR9Jvk7KV6iGqpMaiWZKEsuiFXkFH6RXzbI9eMY7ZK+YQHQ0mccqinIv4aAbrk5OPbb2eUIyOmVCE/xb2OSCL2HuyCDJOSSP2u2ikM2F9YE4x7B0tcNT3Fxl7kkonpR+aV3YldXygpEqx+aOoHDOb/9vw5W8=</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-01-28T11:10:50.079Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="oA9c1rUKO0EWehbAlELO" version="14.2.7" type="github">
+  <diagram id="f4uBQvl_7b_BEWJ_rEFn" name="Page-1">
+    <mxGraphModel dx="1422" dy="839" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="6hHhca4XRa9OGriNkObh-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="6hHhca4XRa9OGriNkObh-1" target="6hHhca4XRa9OGriNkObh-3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6hHhca4XRa9OGriNkObh-8" value="SubmitToRecruitV6" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="6hHhca4XRa9OGriNkObh-7" vertex="1" connectable="0">
+          <mxGeometry x="0.1846" relative="1" as="geometry">
+            <mxPoint x="16" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6hHhca4XRa9OGriNkObh-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="6hHhca4XRa9OGriNkObh-1" target="6hHhca4XRa9OGriNkObh-9" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="350" y="190" />
+              <mxPoint x="350" y="540" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6hHhca4XRa9OGriNkObh-11" value="SubmitToRecruitPortalRecommendCodeV6" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="6hHhca4XRa9OGriNkObh-10" vertex="1" connectable="0">
+          <mxGeometry x="0.3846" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6hHhca4XRa9OGriNkObh-1" value="Beisen.CMS.Library&lt;br&gt;ResumeProvider.SubmitApply" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="110" y="160" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6hHhca4XRa9OGriNkObh-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="6hHhca4XRa9OGriNkObh-3" target="6hHhca4XRa9OGriNkObh-5" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6hHhca4XRa9OGriNkObh-3" value="Kafka&lt;br&gt;BeisenRecruitV6PortalSubmission" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="570" y="160" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cdrXPhunWyCPMflT4dLq-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="6hHhca4XRa9OGriNkObh-5" target="cdrXPhunWyCPMflT4dLq-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6hHhca4XRa9OGriNkObh-5" value="Beisen.RecruitV6PortalSubmissionConsumer.Dev" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="960" y="160" width="310" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6hHhca4XRa9OGriNkObh-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="6hHhca4XRa9OGriNkObh-9" target="6hHhca4XRa9OGriNkObh-12" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6hHhca4XRa9OGriNkObh-9" value="Kafka&lt;br&gt;BeisenRecruitV6PortalRecommendCodeSubmission" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="510" y="510" width="300" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6hHhca4XRa9OGriNkObh-12" value="Beisen.RecruitV6PortalRecommendCodeConsumer.Dev" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="900" y="510" width="400" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cdrXPhunWyCPMflT4dLq-1" value="Beisen.RecruitV6Applicant.Dev&lt;br&gt;ISubmissionSubmitProvider.PortalResume" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="915" y="280" width="400" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
