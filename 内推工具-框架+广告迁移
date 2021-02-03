@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-02-03T08:15:13.832Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.104 Safari/537.36" etag="b4Wb03lDzO2o3F9Q2x5a" version="14.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-02-03T12:26:36.208Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.104 Safari/537.36" etag="CE_y6O8mEbvfgphtwY70" version="14.2.9" type="github">
   <diagram id="opj6cQ-oHb-ZNiN98mbR" name="Page-1">
     <mxGraphModel dx="1422" dy="839" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
       <root>
@@ -76,6 +76,14 @@
         <mxCell id="nGThB-1KO8apslphqAMO-16" value="确认租户&lt;br&gt;满足使用条件" style="rounded=0;whiteSpace=wrap;html=1;" parent="nGThB-1KO8apslphqAMO-3" vertex="1">
           <mxGeometry x="15.5" y="79" width="120" height="37" as="geometry" />
         </mxCell>
+        <mxCell id="nGThB-1KO8apslphqAMO-11" value="告知客户开通时间&lt;br&gt;期间不要使用系统" style="rounded=0;whiteSpace=wrap;html=1;" parent="nGThB-1KO8apslphqAMO-3" vertex="1">
+          <mxGeometry x="15.5" y="153" width="120" height="37" as="geometry" />
+        </mxCell>
+        <mxCell id="nGThB-1KO8apslphqAMO-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="nGThB-1KO8apslphqAMO-3" source="nGThB-1KO8apslphqAMO-16" target="nGThB-1KO8apslphqAMO-11" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="377.5" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="nGThB-1KO8apslphqAMO-4" value="开通组" style="swimlane;startSize=20;" parent="1" vertex="1">
           <mxGeometry x="401" y="383" width="151" height="528" as="geometry" />
         </mxCell>
@@ -91,30 +99,16 @@
         <mxCell id="nGThB-1KO8apslphqAMO-5" value="开发/测试/运维" style="swimlane;startSize=20;" parent="1" vertex="1">
           <mxGeometry x="552" y="383" width="151" height="528" as="geometry" />
         </mxCell>
-        <mxCell id="nGThB-1KO8apslphqAMO-12" value="Labs环境同步数据&lt;br&gt;迁移预演、测试验证" style="rounded=0;whiteSpace=wrap;html=1;" parent="nGThB-1KO8apslphqAMO-5" vertex="1">
-          <mxGeometry x="15.5" y="130" width="120" height="37" as="geometry" />
-        </mxCell>
         <mxCell id="nGThB-1KO8apslphqAMO-19" value="线上&lt;br&gt;执行工具、测试验证" style="rounded=0;whiteSpace=wrap;html=1;" parent="nGThB-1KO8apslphqAMO-5" vertex="1">
           <mxGeometry x="15.5" y="263" width="120" height="37" as="geometry" />
-        </mxCell>
-        <mxCell id="nGThB-1KO8apslphqAMO-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="nGThB-1KO8apslphqAMO-12" target="nGThB-1KO8apslphqAMO-11" edge="1">
-          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="nGThB-1KO8apslphqAMO-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="nGThB-1KO8apslphqAMO-6" target="nGThB-1KO8apslphqAMO-16" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="325.5" y="473" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="nGThB-1KO8apslphqAMO-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="nGThB-1KO8apslphqAMO-16" target="nGThB-1KO8apslphqAMO-12" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="611" y="596" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="nGThB-1KO8apslphqAMO-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;dashed=1;" parent="1" source="nGThB-1KO8apslphqAMO-11" target="nGThB-1KO8apslphqAMO-19" edge="1">
           <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="nGThB-1KO8apslphqAMO-11" value="告知客户开通时间&lt;br&gt;期间不要使用系统" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="189" y="565" width="120" height="37" as="geometry" />
         </mxCell>
         <mxCell id="nGThB-1KO8apslphqAMO-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="nGThB-1KO8apslphqAMO-19" target="nGThB-1KO8apslphqAMO-21" edge="1">
           <mxGeometry relative="1" as="geometry" />
